@@ -1,0 +1,159 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+}
+
+.logo h1 {
+    color: #f5f5f5;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Default link color */
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #f39c12; /* Highlight color for the active link */
+}
+
+nav ul li a.staff-link {
+    color: red; /* Different color for Staff link */
+}
+
+nav ul li a:hover {
+    color: #FF6347;
+}
+
+
+/* Section Styles */
+section {
+    padding: 4rem 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.service-image {
+    width: 60%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+/* Service list styling */
+ul.services {
+    list-style-type: none; /* Use "disc" bullets for the list */
+    padding-left: 20px; /* Add padding to align with the list items */
+    color: #fff; /* Set text color to white or adjust as needed */
+}
+
+ul.services li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Adjustments for button-container if needed */
+.button-container {
+    text-align: center; /* Center align the button */
+    margin-top: 20px; /* Add spacing above the button */
+}
+
+.btn {
+    background-color: #FF6347;
+    color: #f5f5f5;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.btn:hover {
+    background-color: #FF4500;
+}
+
+/* Class Table */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    color: #f5f5f5;
+    margin-bottom: 3rem;
+}
+
+table th, table td {
+    padding: 1rem;
+    border: 1px solid #444;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Logo image styling */
+.logo {
+    text-align: center; /* Center the logo container */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.logo img {
+    max-width: 50%; /* Limit the image width to 50% of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Cold Bath Therapy Image Styling */
+.cold-bath-image {
+    max-width: 25%; /* Set the image to 25% of its original size */
+    height: auto;   /* Keep the aspect ratio */
+    display: block; /* Ensures it's treated as a block element */
+    margin: 20px auto; /* Center the image with some spacing around it */
+}
