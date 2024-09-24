@@ -96,6 +96,11 @@ nav ul li a:hover {
     display: block;
 }
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 
 /* Section Styles */
