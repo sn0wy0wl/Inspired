@@ -200,7 +200,7 @@ footer {
 }
 
 /* Cold Bath Therapy Image Styling */
-.cold-bath-image {
+.recovery-suite-image {
     max-width: 25%; /* Set the image to 25% of its original size */
     height: auto;   /* Keep the aspect ratio */
     display: block; /* Ensures it's treated as a block element */
