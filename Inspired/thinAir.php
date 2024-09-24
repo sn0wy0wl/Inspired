@@ -8,20 +8,18 @@
 </head>
 <body>
 
-    <!-- Include the header -->
+    <!-- Include Header -->
     <?php include 'partials/header.php'; ?>
 
+    <!-- ThinAir Section -->
     <section id="thinAir">
         <div class="container">
             <h2>thinAir Room</h2>
             <p>Train in a high-altitude simulated environment designed to boost endurance and improve cardiovascular fitness.</p>
-            <img src="path_to_your_image.jpg" alt="thinAir Room" class="service-image">
-            <p>Our state-of-the-art thinAir room is designed to simulate conditions found at high altitudes, offering you a cutting-edge fitness experience.</p>
-            <a href="#" class="btn">Book thinAir Room</a>
         </div>
     </section>
 
-    <!-- Include the footer -->
+    <!-- Include Footer -->
     <?php include 'partials/footer.php'; ?>
 
 </body>
