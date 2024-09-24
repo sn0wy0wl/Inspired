@@ -206,3 +206,28 @@ footer {
     display: block; /* Ensures it's treated as a block element */
     margin: 20px auto; /* Center the image with some spacing around it */
 }
+
+/* thinAir Page Background Styling */
+#thinAir {
+    background-image: url('images/1.png'); /* Path to the background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 80px 0; /* Add padding to make space for the content */
+    color: #fff; /* Make the text white for better visibility */
+}
+
+#thinAir .container {
+    text-align: center;
+}
+
+#thinAir h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#thinAir p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
