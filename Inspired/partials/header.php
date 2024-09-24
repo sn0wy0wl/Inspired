@@ -7,10 +7,10 @@
     <nav>
         <ul>
             <li><a href="index.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">Home</a></li>
-            <li><a href="cold-bath.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'cold-bath.php') ? 'active' : ''; ?>">Cold Bath</a></li>
-            <li><a href="thinAir.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'thinAir.php') ? 'active' : ''; ?>">thinAir Room</a></li>
-            <li><a href="personal-trainers.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'personal-trainers.php') ? 'active' : ''; ?>">Personal Trainers</a></li>
-            <li><a href="classes.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'classes.php') ? 'active' : ''; ?>">Classes</a></li>
+            <li><a href="recovery-suite.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'recovery-suite.php') ? 'active' : ''; ?>">Recovery Suite</a></li>
+            <li><a href="thinAir.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'thinAir.php') ? 'active' : ''; ?>">thinAir Hypoxic Training</a></li>
+            <li><a href="personal-trainers.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'personal-trainers.php') ? 'active' : ''; ?>">Personal Training</a></li>
+            <li><a href="classes.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'classes.php') ? 'active' : ''; ?>">Class Timetable</a></li>
             <li><a href="inspired-charity.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'inspired-charity.php') ? 'active' : ''; ?>">Inspired Charity</a></li>
             <li><a href="kangen-water.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'kangen-water.php') ? 'active' : ''; ?>">Kangen Water</a></li>
 
