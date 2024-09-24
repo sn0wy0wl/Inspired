@@ -24,6 +24,7 @@ header {
     color: #f5f5f5;
 }
 
+/* Basic styles for navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -31,13 +32,16 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
+    position: relative;
     margin-right: 15px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white; /* Default link color */
+    padding: 10px 15px;
+    display: block;
 }
 
 nav ul li a.active {
@@ -46,12 +50,52 @@ nav ul li a.active {
 }
 
 nav ul li a.staff-link {
-    color: red; /* Different color for Staff link */
+    color: red; /* Color for Staff link */
 }
 
 nav ul li a:hover {
-    color: #FF6347;
+    color: #FF6347; /* Tomato color on hover */
 }
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropbtn {
+    background-color: #333; /* Background color for dropdown button */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none; /* Hide the dropdown content by default */
+    position: absolute;
+    background-color: #333; /* Dropdown background */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757; /* Background color on hover */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 
 /* Section Styles */
