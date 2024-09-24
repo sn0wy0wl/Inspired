@@ -18,7 +18,7 @@
             
             <!-- Image replacing the removed text -->
             <div class="home-image">
-                <img src="images/1000008494.jpg" alt="Inspired Gym Image">
+                <img src="images/Logos/1000008494.jpg" alt="Inspired Gym Image">
             </div>
 
             <div class="button-container">
