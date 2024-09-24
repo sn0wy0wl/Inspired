@@ -11,7 +11,8 @@
             <li><a href="thinAir.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'thinAir.php') ? 'active' : ''; ?>">thinAir Room</a></li>
             <li><a href="personal-trainers.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'personal-trainers.php') ? 'active' : ''; ?>">Personal Trainers</a></li>
             <li><a href="classes.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'classes.php') ? 'active' : ''; ?>">Classes</a></li>
-            <li><a href="staff.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'staff.php') ? 'active' : ''; ?> staff-link">Staff</a></li>
+            <li><a href="inspired-charity.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'inspired-charity.php') ? 'active' : ''; ?>">Inspired Charity</a></li>
+            <li><a href="kangen-water.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'kangen-water.php') ? 'active' : ''; ?>">Kangen Water</a></li>
 
             <!-- Dropdown menu for Training Styles -->
             <li class="dropdown">
@@ -30,16 +31,15 @@
 
             <!-- Dropdown menu for Stock -->
             <li class="dropdown">
-                <a href="#" class="dropbtn">Stock</a>
+                <a href="#" class="dropbtn">Shop</a>
                 <div class="dropdown-content">
-                    <a href="kangen-water.php">Kangen Water</a>
+                    <a href="aftershave.php">Aftershave</a>
                     <a href="supplements.php">Supplements</a>
                     <a href="cafe.php">Cafe (Coming Soon)</a>
                 </div>
             </li>
-
-            <!-- Inspired Charity link -->
-            <li><a href="inspired-charity.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'inspired-charity.php') ? 'active' : ''; ?>">Inspired Charity</a></li>
+            
+            <li><a href="staff.php" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'staff.php') ? 'active' : ''; ?> staff-link">Staff</a></li>
         </ul>
     </nav>
 </header>
