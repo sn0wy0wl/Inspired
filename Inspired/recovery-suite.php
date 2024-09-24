@@ -11,7 +11,7 @@
     <!-- Include the header -->
     <?php include 'partials/header.php'; ?>
 
-    <section id="cold-bath">
+    <section id="recover-suite">
         <div class="container">
             <h2>Cold Bath Therapy</h2>
             <p>Experience the rejuvenating effects of cold immersion after an intense workout. Perfect for muscle recovery and relaxation.</p>
