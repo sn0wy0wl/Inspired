@@ -209,7 +209,7 @@ footer {
 
 /* thinAir Page Background Styling */
 #thinAir {
-    background-image: url('images/1.png'); /* Path to the background image */
+    background-image: url('images/thinAir/1.png'); /* Path to the background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
